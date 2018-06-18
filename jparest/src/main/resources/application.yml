@@ -1,4 +1,6 @@
 spring:
+  application:
+    name: jparest
   datasource:
     url: jdbc:postgresql://localhost:26257/jpa
     username: maxroach
