@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:26257/jpa
+    username: maxroach
+  jpa:
+    generate-ddl: true
+    show-sql: true
+
+
+logging:
+  level:
+    org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl: ERROR

@@ -1,4 +1,3 @@
-// tag::sample[]
 package hello;
 
 import lombok.Data;
@@ -12,17 +11,13 @@ import javax.persistence.Id;
 @Entity
 @Data
 @NoArgsConstructor
-public class Customer {
+public class Person {
 
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
-  private Long id;
+  private long id;
+
   private String firstName;
   private String lastName;
 
-  public Customer(String firstName, String lastName) {
-    this.firstName = firstName;
-    this.lastName = lastName;
-  }
 }
-

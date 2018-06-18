@@ -51,7 +51,7 @@
   keep_log_file_num=1000
   recycle_log_file_num=0
   db_log_dir=
-  wal_dir=/home/a/Documents/me/cockroach/hello-1/cockroach-temp330613109
+  wal_dir=/home/a/Documents/me/cockroach/hello-1/cockroach-temp974267489
   max_subcompactions=4
   use_direct_reads=false
   WAL_size_limit_MB=0
