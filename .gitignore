@@ -57,3 +57,4 @@ mem*.db
 README.html
 venv/
 hello-1/
+jparest/target/
